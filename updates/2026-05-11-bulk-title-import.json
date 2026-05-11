@@ -1,0 +1,16 @@
+{
+  "appVersion": "0.1.9",
+  "updatedAt": "2026-05-11T19:00:00+09:00",
+  "type": "feature_update",
+  "features": [
+    "Title feedback bulk import up to 10000 titles",
+    "Duplicate title filtering against input and existing saved titles",
+    "Automatic learning asset export after bulk import",
+    "Automatic GitHub learning asset upload attempt after bulk import"
+  ],
+  "learningAsset": {
+    "localPath": "engine/app/assets/learning_seed.json",
+    "maxRecords": 10000,
+    "maxBytes": 5000000
+  }
+}
