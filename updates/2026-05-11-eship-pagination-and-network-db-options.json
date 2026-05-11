@@ -1,0 +1,13 @@
+{
+  "appVersion": "0.1.10",
+  "updatedAt": "2026-05-11T19:20:00+09:00",
+  "type": "feature_update",
+  "features": [
+    "eShip scraper now follows pagination to collect more than the first visible page",
+    "Desktop eShip title import requests up to 20 pages by default",
+    "Duplicate records are merged by item id, SKU, and title while paging"
+  ],
+  "notes": [
+    "SQLite network storage was reviewed. Direct SQLite over network drive is not recommended; API-backed sync or Supabase/Postgres is preferred."
+  ]
+}
