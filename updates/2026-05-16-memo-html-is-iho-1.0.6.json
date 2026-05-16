@@ -1,0 +1,16 @@
+{
+  "date": "2026-05-16",
+  "version": "1.0.6",
+  "change": "Updated decomposition memo and HTML Product Details fields for Iron Set and Iron Head Only formats.",
+  "details": {
+    "ironSetMemo": ["Brand", "Model", "Set", "Shaft", "Flex", "Handedness"],
+    "ironHeadOnlyMemo": ["Brand", "Model", "Set Composition", "Handedness"],
+    "html": "Iron Head Only HTML uses Set Composition and removes Shaft/Flex/Length; Iron Set HTML removes Length and keeps the six requested fields."
+  },
+  "verification": {
+    "pythonTests": "56 passed",
+    "installer": "eBayTensakuAI-Setup-1.0.6.exe",
+    "latestYmlVersion": "1.0.6",
+    "downloadStatus": 200
+  }
+}
