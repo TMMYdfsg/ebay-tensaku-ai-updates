@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-16",
+  "version": "1.0.3",
+  "release": "https://github.com/TMMYdfsg/ebay-tensaku-ai-updates/releases/tag/v1.0.3",
+  "artifacts": [
+    "latest.yml",
+    "eBayTensakuAI-Setup-1.0.3.exe",
+    "eBayTensakuAI-Setup-1.0.3.exe.blockmap"
+  ],
+  "fixes": [
+    "Bumped package version above the previous public 1.0.2 release so the updater detects 1.0.3 as newer.",
+    "Published latest.yml and installer assets for the generic electron-updater feed."
+  ],
+  "verification": {
+    "latestYmlUrl": "https://github.com/TMMYdfsg/ebay-tensaku-ai-updates/releases/latest/download/latest.yml",
+    "installerUrl": "https://github.com/TMMYdfsg/ebay-tensaku-ai-updates/releases/latest/download/eBayTensakuAI-Setup-1.0.3.exe",
+    "installerHeadStatus": 200,
+    "latestYmlVersion": "1.0.3"
+  }
+}
