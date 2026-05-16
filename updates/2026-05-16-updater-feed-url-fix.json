@@ -1,0 +1,16 @@
+{
+  "appVersion": "0.1.12",
+  "updatedAt": "2026-05-16T18:30:00+09:00",
+  "type": "bug_fix",
+  "fixes": [
+    "Normalize GitHub repository update URLs to releases/latest/download/",
+    "Use electron-updater generic provider for GitHub release download URLs",
+    "Avoid resolving latest.yml from the repository root"
+  ],
+  "verification": {
+    "latestYml": "https://github.com/TMMYdfsg/ebay-tensaku-ai-updates/releases/latest/download/latest.yml",
+    "latestYmlStatus": 200,
+    "frontendBuild": "success",
+    "pythonTests": "19 passed for test_api.py and test_rules.py"
+  }
+}
