@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-16",
+  "version": "1.0.4",
+  "change": "Fixed item specifics piece-count buttons so 5pcs-10pcs selections update immediately instead of requiring a regenerate API call.",
+  "files": [
+    "desktop/src/main.tsx",
+    "desktop/package.json",
+    "desktop/package-lock.json"
+  ],
+  "verification": {
+    "command": "npm run build",
+    "status": "passed"
+  }
+}
