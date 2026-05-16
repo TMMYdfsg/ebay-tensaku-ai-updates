@@ -1,0 +1,17 @@
+{
+  "appVersion": "0.1.11",
+  "updatedAt": "2026-05-16T00:00:00+09:00",
+  "type": "feature_update",
+  "features": [
+    "Show an Item specifics helper panel after title generation",
+    "Allow 5pcs/6pcs and other club count choices",
+    "Allow RH/LH choice after generation",
+    "Allow Number of Clubs selection using 3-9, PW, AW, GW, SW buttons",
+    "Use selected specifics only as supplemental data when raw title is missing set or handedness",
+    "Keep fixed required HTML output format for iron set templates"
+  ],
+  "verification": {
+    "pythonTests": "51 passed",
+    "frontendBuild": "success"
+  }
+}
