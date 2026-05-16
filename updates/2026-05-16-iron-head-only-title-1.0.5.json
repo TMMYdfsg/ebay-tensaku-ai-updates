@@ -1,0 +1,17 @@
+{
+  "date": "2026-05-16",
+  "version": "1.0.5",
+  "change": "Iron Head Only titles now always follow Brand Model Iron Set Pcs Clubs Iron Head Only RH/LH order.",
+  "files": [
+    "engine/app/rules.py",
+    "engine/tests/test_rules.py",
+    "desktop/package.json",
+    "desktop/package-lock.json"
+  ],
+  "verification": {
+    "pythonTests": "53 passed",
+    "installer": "eBayTensakuAI-Setup-1.0.5.exe",
+    "latestYmlVersion": "1.0.5",
+    "downloadStatus": 200
+  }
+}
